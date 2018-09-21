@@ -245,3 +245,8 @@ page-section.article {
     width: 275px;
     padding-bottom: 10px;
   }
+
+  html
+  {
+    scroll-behavior: smooth;
+  }
