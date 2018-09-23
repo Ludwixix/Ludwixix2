@@ -294,7 +294,8 @@ html {
 	-webkit-border-radius:50px;
 	-moz-border-radius:50px;
 	-ms-border-radius:50px;
-	-o-border-radius:50px;
+  -o-border-radius:50px;
+  text-decoration: none;
 }
 
 .homebutton
@@ -302,4 +303,6 @@ html {
   color: var(--lessdark);
   animation-name: bounce 1s ; 
   cursor: pointer;
+  text-decoration: none;
 }
+
