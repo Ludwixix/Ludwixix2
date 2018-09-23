@@ -283,10 +283,10 @@ html {
 
 .float{
 	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	left:40px;
+	width:10px;
+	height:20px;
+	top:42px;
+	left:20px;
 	background-color:;
 	color: var(--dark);
 	border-radius:50px;

@@ -39,6 +39,9 @@ Describe key events in the development of the internet from the 1980s to today (
 2010 - Internet is now available to astronaughts at the ISS.
 2011 - The WWW as we know it today is well established with a total number of websites exceeeing 400 million.
 
+Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
+
 ## Author
 ---
 Sam Ludwig
