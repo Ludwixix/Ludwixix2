@@ -76,10 +76,11 @@ margin-top: 0em;
 .bar2 {
   background-image: linear-gradient( #CDF2ED, #94E5DD);
   min-height: 5em;
-  margin: 0em;
+  margin-top: 0em;
   width: 100%;
   z-index: 0;
-  margin-top: -5em;
+  margin-top: 0em;
+  height: 300px;
   /* animation-name: bar;
   animation-fill-mode: forwards;
   animation-duration: 1s; */
@@ -159,7 +160,7 @@ article {
 h1 {
   text-align: center;
   font-size: 25px;
-  margin-top: 0em;
+  margin-bottom: 2em;
 }
 
 page-section.article {
@@ -263,8 +264,8 @@ page-section.article {
 .logos {
   display: flex;
   flex-flow: row;
-  justify-content: space-around;
-  padding-bottom: 0em;
+  justify-content: space-between;
+  padding-: 0em;
 }
 
 .me {
@@ -272,6 +273,9 @@ page-section.article {
   margin-top: -30px;
   width: 275px;
   padding-bottom: 10px;
+  animation-name: spin;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;  
 }
 
 /* test */
@@ -279,6 +283,8 @@ page-section.article {
 html {
   scroll-behavior: smooth;
 }
+
+
 
 
 .float{
@@ -298,11 +304,30 @@ html {
   text-decoration: none;
 }
 
-.homebutton
+.homebutton:hover
 {
   color: var(--lessdark);
-  animation-name: bounce 1s ; 
   cursor: pointer;
   text-decoration: none;
+}
+
+#Linkedin
+{
+  margin-top: -12em;
+  padding-bottom: 1em;
+  width: 75px;
+  height: 75px;
+  padding-left: 26em;
+  z-index: 1;
+}
+
+#contactbuttons
+{
+  margin-top: -17.5em;
+  padding-bottom: 5em;
+  width: 75px;
+  height: 75px;
+  padding-left: 26em;
+  z-index: 0;
 }
 
