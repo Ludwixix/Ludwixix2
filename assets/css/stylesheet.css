@@ -87,13 +87,18 @@ margin-top: 0em;
   /* animation-iteration-count: infinite; */
 }
 
-.bar {
+.bar{
   background-image: linear-gradient(#94E5DD, #CDF2ED);
   min-height: 5em;
   margin: 0em;
   width: 100%;
   padding-top: 0em;
   z-index: 0;
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
   /* animation-name: bar;
   animation-fill-mode: forwards;
   animation-duration: 1s; */
@@ -331,4 +336,10 @@ html {
   padding-left: 26em;
   z-index: 0;
 }
+#contactbuttons:hover{ animation: bounce 1s; -webkit-animation: bounce 1s;
+}
 
+#Linkedin:hover
+{
+  animation: bounce 1s;
+}
