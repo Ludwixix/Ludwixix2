@@ -129,8 +129,8 @@ nav.button-bar a {
   padding: 1px 1px;
   text-decoration: none;
   display: block;
-  text-align: center;
-  font-size: 45px;
+  text-align: LEFT;
+  font-size: 30px;
   color: var(--lessdark);
   font-family: 'Fjalla One', sans-serif;
   transition: 1s;
@@ -138,12 +138,8 @@ nav.button-bar a {
   -moz-transition: 1s;
   -ms-transition: 1s;
   -o-transition: 1s;
-  animation-name: bar;
-  animation-fill-mode: forwards;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
   cursor: pointer;
+  padding-left: 8em;
 }
 
 nav.button-bar a:hover {
@@ -347,4 +343,9 @@ html {
 #Linkedin:hover
 {
   animation: bounce 1s;
+}
+
+#About{
+  margin-top: -23em;
+  z-index: 2;
 }
