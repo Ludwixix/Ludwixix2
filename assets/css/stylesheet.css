@@ -275,13 +275,17 @@ page-section.article {
 }
 
 .me {
-  align-content: center;
-  margin-top: -30px;
-  width: 275px;
-  padding-bottom: 10px;
-  animation-name: spin;
-  animation-duration: 10s;
-  animation-fill-mode: forwards;  
+    align-content: center;
+    margin-top: -30px;
+    width: 275px;
+    padding-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 33%;
+    -webkit-border-radius: 33%;
+    -moz-border-radius: 33%;
+    -ms-border-radius: 33%;
+    -o-border-radius: 33%;
 }
 
 /* test */
@@ -335,6 +339,7 @@ html {
   height: 75px;
   padding-left: 26em;
   z-index: 0;
+  overflow: hidden;
 }
 #contactbuttons:hover{ animation: bounce 1s; -webkit-animation: bounce 1s;
 }
