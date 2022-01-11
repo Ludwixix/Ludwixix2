@@ -25,6 +25,10 @@ header {
   position: relative;
 }
 
+svg{
+	width: 20%;
+}
+
 header h1 {
   color: var(--secondary);
   font-size: 12em;
